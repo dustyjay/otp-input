@@ -1,6 +1,6 @@
 {
   "name": "@dustyjay/otp-input",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "An OTP input with proper accessibility, built with React",
   "files": [
     "dist",
