@@ -1,4 +1,4 @@
-# React Otp Input
+# Otp Input
 
 A light-weight package to display otp inputs with the option of customizing the input to suit your project designs. The package does not contain any styling which leaves that power in your hands.
 
@@ -19,7 +19,10 @@ $ yarn add @dustyjay/otp-input
 ```
 import { OtpInput } from "@dustyjay/otp-input"
 
-<OtpInput numberOfInputs={5} onComplete={(value) => console.log('Completed OTP is', value)} />
+<OtpInput
+  numberOfInputs={5}
+  onComplete={(value) => console.log('Completed OTP is', value)}
+/>
 ```
 
 ## Props

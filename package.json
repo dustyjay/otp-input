@@ -1,6 +1,6 @@
 {
   "name": "@dustyjay/otp-input",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "An OTP input with proper accessibility, built with React",
   "files": [
     "dist",
@@ -24,7 +24,11 @@
     "otp",
     "input",
     "react",
-    "numbers"
+    "numbers",
+    "custom-styling",
+    "simple",
+    "javascript",
+    "typescript"
   ],
   "author": "Janet Arisah",
   "license": "ISC",

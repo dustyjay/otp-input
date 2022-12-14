@@ -1,7 +1,7 @@
 import React, { FC, FormEvent, useEffect, useRef, useState } from "react";
 import { OtpInputType } from "./types";
 
-const OTPInput: FC<OtpInputType> = ({
+const OtpInput: FC<OtpInputType> = ({
   onComplete,
   onInput,
   numberOfInputs,
@@ -83,4 +83,4 @@ const OTPInput: FC<OtpInputType> = ({
   );
 };
 
-export default OTPInput;
+export default OtpInput;
