@@ -38,8 +38,8 @@ const OTPInput: FC<OtpInputType> = ({
 
   useEffect(() => {
     const isComplete = otp.every((val) => val !== "");
-    if (isComplete) onComplete(otp.join(""));
-    else onComplete("");
+    if (isComplete) onComplete?.(otp.join(""));
+    else onComplete?.("");
     onInput?.(otp.join(""));
   }, [otp]);
 

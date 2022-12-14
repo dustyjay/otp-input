@@ -4,6 +4,6 @@ export type OtpInputType = {
   inputClass?: string;
   inputStyle?: React.CSSProperties;
   numberOfInputs: number;
-  onComplete: (input: string) => void;
+  onComplete?: (input: string) => void;
   onInput?: (input: string) => void;
 };
