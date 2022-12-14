@@ -1,1 +1,3 @@
-export * from "./otp-input";
+import OtpInput from "./lib/otp-input";
+
+export { OtpInput };

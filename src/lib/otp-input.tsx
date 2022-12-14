@@ -2,7 +2,7 @@ import React, { FC, FormEvent, useEffect, useRef, useState } from "react";
 import { OtpInputType } from "./types";
 
 const OTPInput: FC<OtpInputType> = ({
-  onOtpComplete,
+  onComplete,
   onInput,
   numberOfInputs,
   wrapperClass,
@@ -38,8 +38,8 @@ const OTPInput: FC<OtpInputType> = ({
 
   useEffect(() => {
     const isComplete = otp.every((val) => val !== "");
-    if (isComplete) onOtpComplete(otp.join(""));
-    else onOtpComplete("");
+    if (isComplete) onComplete(otp.join(""));
+    else onComplete("");
     onInput?.(otp.join(""));
   }, [otp]);
 
